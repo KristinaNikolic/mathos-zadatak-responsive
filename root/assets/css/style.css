@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.header {
+	background-color: #9BCE3B;
+	color: white;
+	margin: 0 auto;
+	padding: 0;
+	vertical-align: top;
+}
+
+.header .title {
+	text-align: center;
+}
+
+.header .nav {
+	background-color: #9BCE3B;
+	color: white;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	height: 10%;
+}
+
+.header .nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+.header .nav ul li {
+	display: inline;
+	float: left;
+	width: 25%;
+}
+
+.header .nav ul li a {
+	display: block;
+	text-align:center;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	margin: 10%;
+	padding: 5%;
+	border-radius: 5px;
+}
+
+.header .nav ul li a:hover,
+.header .nav ul li a.selected,
+.header .nav ul li a:active,
+.header .nav ul li a:focus{
+	background-color: #BEDF82;
+}
+
+.main{
+	width: 90%;
+	margin: 0 auto;
+	color: #698E24;
+	position: relative;
+}
+
+.main .form{
+	margin: 0 auto;
+	font-size: 1.2em;
+	width: 90%;
+	display: inline;
+	position: center;
+}
+
+
+.form input{
+	display: inline-block;
+	height: 2em;
+	width: 48%;
+	border: 1px solid #5593ca;
+	border-radius: 3px;
+	padding: 1%;
+	margin: 1%;
+	float: left;
+}
+
+.form textarea{
+	display: block;
+	width: 98%;
+	border: 1px solid #5593ca;
+	border-radius: 3px;
+	padding: 1%;
+	margin: 1%;
+	float: left;
+}
+
+
+.form button{
+	width: 10%;
+	height: 2em;
+	border: 1px solid;
+	border-radius: 3px;
+	text-align: center;
+
+}
+
+.form .accept{
+	background-color: #9BCE3B;
+	border-color: #9BCE3B;
+	margin-left: 40%;
+}
+
+.form .decline{
+	background-color: #ff3333;
+	border-color: #ff3333;
+}
+
+.footer{
+	vertical-align: bottom;
+	height: 7.5vh;
+	background-color: #698E24;
+	margin-top: 1%;
+	text-align: center;
+	padding-top: 1vh;
+}
